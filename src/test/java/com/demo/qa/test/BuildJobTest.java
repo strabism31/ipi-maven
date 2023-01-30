@@ -16,7 +16,7 @@ public class BuildJobTest {
 	@BeforeMethod
 	public void setUp()
 	{
-		System.setProperty("webdriver.chrome.driver", "C:\Users\toto\Downloads\chromedriver_win32\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\toto\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); //Implicit wait
