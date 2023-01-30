@@ -55,6 +55,14 @@
 </dependency>
 
 <!--  Dependencies ended Now-->
-     
+	  
+     <distributionManagement>
+    <repository>
+        <id>absolute directory</id>
+        <url>file:///C:\ProgramData\Jenkins\.jenkins\workspace\projet-ipi-pipeline@tmp</url>
+    </repository>
+</distributionManagement>
+
+	  
   </dependencies>
 </project>
