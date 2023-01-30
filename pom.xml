@@ -54,27 +54,7 @@
     <scope>test</scope>
 </dependency>
 
-<!--  Dependencies ended Now-->
-	   
-	  <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-antrun-plugin</artifactId>
-            <version>1.8</version>
-            <executions>
-                <execution>
-                    <phase>deploy</phase>
-                    <configuration>
-                        <target>
-                            <copy file="target/${project.artifactId}-exec.jar" tofile="..//${project.artifactId}.jar"/>
-                        </target>
-                    </configuration>
-                    <goals>
-                        <goal>run</goal>
-                    </goals>
-                </execution>
-            </executions>
-        </plugin>
-	  
+<!--  Dependencies ended Now--> 
 	  
   </dependencies>
 </project>
